@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact -  360° Degrees</title>
+    <link rel="icon" type="image/x-icon" href="image/pizza.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-orange {
+            background-color: orange !important;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+        footer {
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+        }
+       
+        .jumbotron {
+            background: url('image/1.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .background {
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+            padding: 10px; /* Add padding to space text from background */
+            border-radius: 10px; /* Add border-radius for rounded corners */
+        }
+        .contact-icon {
+            width: 50px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto; /* Center horizontally */
+            margin-bottom: 10px; /* Add margin bottom for spacing */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+        <a class="navbar-brand text-white" href="index.html"> 360° Degrees</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="services.html">Feedback</a>
+                </li> -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <div class="background">
+            <h1 class="display-4">Contact Us</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center"> <!-- Center the cards horizontally -->
+            <div class="col-lg-4">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/email (1).png" class="contact-icon" alt="Email Icon" style="margin-top: 20px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Email Us:</h5>
+                        <p class="card-text">360degrees@gmail.com</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4" style="background-color: rgba(255, 166, 0, 0.436);">
+                    <img src="image/phone-call.png" class="contact-icon" alt="Phone Icon" style="margin-top: 20px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Call Us:</h5>
+                        <p class="card-text">+63945 495 1847</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       
+   <!-- Privacy Policy Modal -->
+<div class="modal fade" id="privacyPolicyModal" tabindex="-1" aria-labelledby="privacyPolicyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="privacyPolicyModalLabel">Privacy Policy</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>We respect your privacy and are committed to protecting your personal information. Our privacy policy outlines how we collect, use, and protect your data:</p>
+                <h6>Information Collection and Use:</h6>
+                <p>We may collect personal information such as your name, phone number, and address when you place an order on our website.</p>
+                <h6>Use of Information:</h6>
+                <p>We may use your personal information to process your orders, communicate with you, and improve our services. We may also use your information for marketing purposes, but you can opt-out at any time.</p>
+                <h6>Information Sharing:</h6>
+                <p>We do not sell, trade, or rent your personal information to third parties. However, we may share your information with trusted service providers who assist us in operating our website or conducting our business.</p>
+                <h6>Security:</h6>
+                <p>We take appropriate measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction.</p>
+                <h6>Cookies:</h6>
+                <p>We may use cookies to enhance your browsing experience on our website. You can choose to disable cookies in your browser settings, but this may affect some functionality of the website.</p>
+                <h6>Changes to This Privacy Policy:</h6>
+                <p>We reserve the right to update our privacy policy at any time. Any changes will be posted on this page, and the revised policy will become effective immediately.</p>
+                <h6>Contact Us:</h6>
+                <p>If you have any questions or concerns about our privacy policy, please contact us.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   <!-- Terms and Conditions Modal -->
+<div class="modal fade" id="termsConditionsModal" tabindex="-1" aria-labelledby="termsConditionsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="termsConditionsModalLabel">Terms and Conditions</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Welcome to 360 Degrees, the ultimate pizza experience! By accessing our website and placing orders, you agree to abide by the following terms and conditions:</p>
+                <h6>Ordering Process:</h6>
+                <ul>
+                    <li>All orders are subject to availability.</li>
+                    <li>Orders placed through our website are considered as requests until confirmed by 360 Degrees.</li>
+                </ul>
+                <h6>Pricing and Payments:</h6>
+                <ul>
+                    <li>Prices listed on our website are in local currency and inclusive of applicable taxes.</li>
+                    <li>Payment for orders is required at the time of checkout via the available payment methods.</li>
+                </ul>
+                <h6>Delivery:</h6>
+                <ul>
+                    <li>We aim to deliver orders within the estimated time frame provided during checkout. However, delivery times may vary depending on factors such as location and traffic conditions.</li>
+                    <li>Delivery charges may apply and will be indicated during the checkout process.</li>
+                </ul>
+                <h6>Cancellation and Refunds:</h6>
+                <ul>
+                    <li>Orders can be canceled before they are confirmed by 360 Degrees. Once confirmed, cancellations may not be possible.</li>
+                    <li>Refunds, if applicable, will be processed according to our refund policy.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="bg-orange text-white text-center">
+        <div class="row" style="padding-top: 16px;">
+            <div class="col">
+                <p><strong>Address:</strong> <br>Baranggay 84 San Jose, Tacloban City, Leyte, 6500</p>
+            </div>
+            <div class="col">
+                <p><strong>Business Hours:</strong></p>
+                <div class="row">
+                    <div class="col">
+                        <p><strong>Weekdays</strong><br>9:00AM - 8:00PM</p>
+                    </div>
+                    <div class="col">
+                        <p><strong>Weekends</strong><br>NOT OPEN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3 mb-3">
+            <hr style="border-top: 1px solid white;">
+        </div>
+        <div class="container p-2">
+            <p class="text-center">© 2024 <strong>360° Degrees</strong>. All Rights Reserved.</p>
+            <p><a href="#" class="text-white" data-toggle="modal" data-target="#privacyPolicyModal">Privacy Policy</a> | <a href="#" class="text-white" data-toggle="modal" data-target="#termsConditionsModal">Terms and Conditions</a></p>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
